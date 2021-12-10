@@ -19,7 +19,7 @@ import java.util.Map;
 @Getter
 @Setter
 @RequiredArgsConstructor
-public class User {
+public class Employee {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
