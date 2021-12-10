@@ -29,9 +29,6 @@ public class Customer {
 
     private String phoneNumber;
 
-    private String test;
-
-//    Map<String,String> phoneNumbers;
 
     private String email;
 
