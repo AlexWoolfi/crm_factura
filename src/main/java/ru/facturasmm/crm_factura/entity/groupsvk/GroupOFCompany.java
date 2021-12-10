@@ -1,4 +1,4 @@
-package ru.facturasmm.crm_factura.entity;
+package ru.facturasmm.crm_factura.entity.groupsvk;
 
 
 import org.springframework.stereotype.Component;
@@ -9,7 +9,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-@Component
 public class GroupOFCompany {
 
 

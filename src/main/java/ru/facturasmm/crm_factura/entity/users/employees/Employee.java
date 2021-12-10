@@ -1,16 +1,14 @@
-package ru.facturasmm.crm_factura.entity.users;
+package ru.facturasmm.crm_factura.entity.users.employees;
 
 
 import lombok.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import ru.facturasmm.crm_factura.entity.GroupOFCompany;
+import ru.facturasmm.crm_factura.entity.groupsvk.GroupOFCompany;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.util.List;
-import java.util.Map;
 
 @Entity
 @Data
@@ -46,11 +44,6 @@ public class Employee {
    private int percentBonus;
 
    private String wallet;
-
-//  private Map<String,String> payWallets;
-//
-//  private Map<String,String>customers;
-
 
    private List<GroupOFCompany> groupOFCompanyList;
 

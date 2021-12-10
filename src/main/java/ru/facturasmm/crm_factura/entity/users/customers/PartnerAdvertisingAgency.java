@@ -1,5 +1,4 @@
-package ru.facturasmm.crm_factura.entity.users;
-
+package ru.facturasmm.crm_factura.entity.users.customers;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,14 +8,12 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import java.util.Map;
 
 @Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Customer {
-
+public class PartnerAdvertisingAgency {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -29,13 +26,13 @@ public class Customer {
 
     private String phoneNumber;
 
-
     private String email;
 
     private String urlAccount;
 
     private int percentSale;
 
+    private int countOrders;
 
-
+    private double totalSumOrdered;
 }
