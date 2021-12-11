@@ -1,10 +1,9 @@
-package ru.facturasmm.crm_factura.entity.groupsvk;
+package ru.facturasmm.crm_factura.entity.deparment;
 
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.stereotype.Component;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -15,17 +14,14 @@ import javax.persistence.Id;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class GroupOFCompany {
-
-
+public class Department {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private int id;
 
     private String name;
 
-    private String URLVK;
+    private int countEmployees;
 
-    private String emloyee;
 
 }

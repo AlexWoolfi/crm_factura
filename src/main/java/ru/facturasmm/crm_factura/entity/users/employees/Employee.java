@@ -45,9 +45,7 @@ public class Employee {
 
    private String wallet;
 
-   private List<GroupOFCompany> groupOFCompanyList;
-
-  private String urlimage;
+   private String urlimage;
 
    private boolean admin;
 
