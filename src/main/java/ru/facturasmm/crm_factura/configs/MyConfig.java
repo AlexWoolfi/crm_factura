@@ -25,7 +25,7 @@ public class MyConfig {
         ComboPooledDataSource dataSource = new ComboPooledDataSource();
         try {
             dataSource.setDriverClass("com.mysql.cj.jdbc.Driver");
-            dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/my_db?useSSL=false&serverTimezone=UTC");
+            dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/factura_db?useSSL=false&serverTimezone=UTC");
             dataSource.setUser("factura");
             dataSource.setPassword("factura123");
         } catch (PropertyVetoException e) {
